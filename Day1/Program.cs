@@ -53,9 +53,23 @@ namespace Day1
             float flo = 10.123f;
             decimal dec = 10.123m; // 128 bits 
 
+            decimal a = dec;
+
             Console.WriteLine(dou);
             Console.WriteLine(flo);
             Console.WriteLine(dec);
+
+            string nm,nm2;
+            nm = "abcdd";
+
+
+            string mystr = null; 
+
+            object myobj= null;
+
+            int? i = null;
+
+            // Class, Struct
 
             // bool
             bool bo = true;
@@ -69,6 +83,8 @@ namespace Day1
             Console.WriteLine("Decimal : " + sizeof(decimal) + " bytes"); // 16
 
             // CV 
+
+            Console.WriteLine(sizeof(int));
 
 
         }
