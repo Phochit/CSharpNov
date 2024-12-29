@@ -39,7 +39,7 @@ namespace Day8
                 }
             }
         }
-
+        
         class Asset
         {
             public string Name;
@@ -80,10 +80,10 @@ namespace Day8
             void Login();
         }
 
-        class Myuser : IUser
-        {
+        //class Myuser : IUser
+        //{
             
-        }
+        //}
 
 
         static void Main(string[] args)
