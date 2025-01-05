@@ -78,6 +78,8 @@ namespace Day10
             // Join
             // Inner,Left,Right,Cross,Full
 
+
+
             var singers = new string[] { "Myo Gyi", "Ah Nge", "Lay Phyu" };
             var band = new string[] { "Iron Cross", "Myo Gyi", "Lay Phyu" };
 

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Employees>
+
+  <Employee>
+    <EmpID>1</EmpID>
+    <Name>Kyaw Gyi</Name>
+    <Gender>Male</Gender>
+    <Email>kyawgyi@gmail.com</Email>
+    <Phone>09500600</Phone>
+    <Address>
+      <Street>100,Bo Gyoke</Street>
+      <Quarter>1</Quarter>
+      <Township>Aung Myay Thar Zan</Township>
+      <City>Madalay</City>
+    </Address>
+  </Employee>
+
+  <Employee>
+    <EmpID>2</EmpID>
+    <Name>Hla Hla</Name>
+    <Gender>Female</Gender>
+    <Email>hlahla@gmail.com</Email>
+    <Phone>09100200300</Phone>
+    <Address>
+      <Street>7,Arnawrahtar</Street>
+      <Quarter>6</Quarter>
+      <Township>Kyawk Tatar</Township>
+      <City>Yangon</City>
+    </Address>
+  </Employee>
+  
+</Employees>
