@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NovDB">
+  <DataContextMoniker Name="/NovDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b89f215c-d11b-49e5-8d93-bf2174fe76cf" absoluteBounds="5.5, 2.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/NovDBDataContext/Tbl_Student" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fc24f92-ab8f-45f9-b217-75fe4accf6c8" absoluteBounds="5.515, 3.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -8,8 +8,11 @@ namespace Day1
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
+            //Person p = new Person();
+            //p.ID = null;
             // Literals
             // Number,Words,Decision, Date & Time
 
@@ -88,5 +91,7 @@ namespace Day1
 
 
         }
+
+        
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,8 +9,23 @@ namespace Day2
 {
     internal class Program
     {
+
+        //class Employee(int i, int j)
+        //{
+
+        //}
+        struct Person
+        {
+            public string name;
+            public int age;
+
+
+        }
         static void Main(string[] args)
         {
+
+            Person person = new Person();
+
             // Operators
 
             // data -> information
@@ -139,6 +155,8 @@ namespace Day2
 
             // BMI
             // Yesterday,Tomorrow
+
+
 
 
         }

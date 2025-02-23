@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NovDB">
+  <DataContextMoniker Name="/NovDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d2a87739-a36e-427e-80d6-3b41bbcecd0a" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/NovDBDataContext/Tbl_Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8229b736-01f2-4e13-abc0-c2a686b431c5" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ab44f49-53ab-41b2-96e1-852360aa0b65" absoluteBounds="0.75, 2.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/NovDBDataContext/Tbl_PurchaseHeader" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7723e3d-58f7-441c-8552-545bda1fb9bd" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f826fa6d-5fff-4d5c-becf-dc72e59aae60" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NovDBDataContext/Tbl_PurchaseDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bd37ca1-12ff-4d24-9d83-8a26dde47081" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

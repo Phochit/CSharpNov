@@ -93,8 +93,8 @@ namespace Day11
             {
                 new Customer()
                 {
-                    ID=Guid.NewGuid().ToString(),
-                    Name="Ma Hla"
+                    ID=Guid.NewGuid().ToString(), // char(36) PK
+                    Name="Ma Hla" // varchar(50)
                 },
                 new Customer()
                 {
@@ -107,9 +107,9 @@ namespace Day11
             {
                 new PurchaseHeader()
                 {
-                    ID = Guid.NewGuid().ToString(),
-                    CustomerID=cus[0].ID,
-                    Description=cus[0].Name+" - Purchase1"
+                    ID = Guid.NewGuid().ToString(), // char(36) PK
+                    CustomerID=cus[0].ID, // char(36) 
+                    Description=cus[0].Name+" - Purchase1" // varchar(300)
                 },
                 new PurchaseHeader()
                 {
@@ -135,9 +135,9 @@ namespace Day11
             {
                 new PurchaseDetail()
                 {
-                    ID = Guid.NewGuid().ToString(),
-                    PurchaseHeaderID=ph[0].ID,
-                    Detail="Bread, Egg, Sugar"
+                    ID = Guid.NewGuid().ToString(), // char(6) PK
+                    PurchaseHeaderID=ph[0].ID, // char(36)
+                    Detail="Bread, Egg, Sugar" // varchar(300)
                 },
                 new PurchaseDetail()
                 {

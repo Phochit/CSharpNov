@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NovDB" Class="NovDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=NovDB;Integrated Security=True;Encrypt=False" SettingsObjectName="Day15.Properties.Settings" SettingsPropertyName="NovDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tbl_Customer" Member="Tbl_Customers">
+    <Type Name="Tbl_Customer">
+      <Column Name="ID" Type="System.String" DbType="Char(36) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_PurchaseHeader" Member="Tbl_PurchaseHeaders">
+    <Type Name="Tbl_PurchaseHeader">
+      <Column Name="ID" Type="System.String" DbType="Char(36) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="Char(36) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(300) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_PurchaseDetail" Member="Tbl_PurchaseDetails">
+    <Type Name="Tbl_PurchaseDetail">
+      <Column Name="ID" Type="System.String" DbType="Char(36) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PurchaseHeaderID" Type="System.String" DbType="Char(36) NOT NULL" CanBeNull="false" />
+      <Column Name="Detail" Type="System.String" DbType="VarChar(300) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SP_InsertCustomer" Method="SP_InsertCustomer">
+    <Parameter Name="id" Type="System.String" DbType="Char(36)" />
+    <Parameter Name="nm" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_SelectAllCustomer" Method="SP_SelectAllCustomer">
+    <ElementType Name="SP_SelectAllCustomerResult">
+      <Column Name="ID" Type="System.String" DbType="Char(36) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>
